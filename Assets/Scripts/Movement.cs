@@ -116,7 +116,7 @@ public class Movement : MonoBehaviour
         
         if (isUsingJetpack)
         {
-            Vector2 playerVelocity = new Vector2(moveInput.x * moveSpeed, moveInput.y * jetPower);
+            Vector2 playerVelocity = new Vector2(moveInput.x * moveSpeed, jetPower);
             playerRb.velocity = playerVelocity;
         }
         else
