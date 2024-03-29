@@ -1,0 +1,1327 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 65486 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Unity Projects/TwinThinker/Twin Thinkers
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63661
+Successfully changed project path to: D:/Unity Projects/TwinThinker/Twin Thinkers
+D:/Unity Projects/TwinThinker/Twin Thinkers
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20972] Host "[IP] 192.168.0.122 [Port] 0 [Flags] 2 [Guid] 788112904 [EditorId] 788112904 [Version] 1048832 [Id] WindowsEditor(7,Bogdan-MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20972] Host "[IP] 192.168.0.122 [Port] 0 [Flags] 2 [Guid] 788112904 [EditorId] 788112904 [Version] 1048832 [Id] WindowsEditor(7,Bogdan-MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 14.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/TwinThinker/Twin Thinkers/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013486 seconds.
+- Loaded All Assemblies, in  0.328 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.224 seconds
+Domain Reload Profiling: 550ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (174ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.584 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1219ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (639ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4567 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (317.5 KB). Loaded Objects now: 5025.
+Memory consumption went from 157.0 MB to 156.6 MB.
+Total: 3.686300 ms (FindLiveObjects: 0.406800 ms CreateObjectMapping: 0.104700 ms MarkObjects: 2.901200 ms  DeleteObjects: 0.272400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35797.223730 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_down.anim
+  artifactKey: Guid(2f078e4f148d467491c7512f82d1b591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_down.anim using Guid(2f078e4f148d467491c7512f82d1b591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac67a6c04ee7281e0468e1fb5b18f3e') in 0.012766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.609876 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_down.anim
+  artifactKey: Guid(305dae69fb314ce3ae596b21a4c63f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_down.anim using Guid(305dae69fb314ce3ae596b21a4c63f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a759f1c6609b623088ecdee0c1d19c6') in 0.001028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.871832 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_down.controller
+  artifactKey: Guid(4cad6950038b47a7ad8b7ce6b4b353fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_down.controller using Guid(4cad6950038b47a7ad8b7ce6b4b353fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075c8ec30b6181ee72b2525743a15649') in 0.001886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.077892 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_down.anim
+  artifactKey: Guid(c1b07d196d6148319b83c14e761b788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_down.anim using Guid(c1b07d196d6148319b83c14e761b788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6c46795db1695c55949a9c899fada8') in 0.000996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.191592 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/gun_walk_side.prefab
+  artifactKey: Guid(4f891e6a5eb34a9c897cf5545a327d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/gun_walk_side.prefab using Guid(4f891e6a5eb34a9c897cf5545a327d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4732b9f06c51220fe77c374b2c8955') in 0.135354 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 0.181881 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/gun_walk_up.prefab
+  artifactKey: Guid(42ba18351b12473cb90c6faf76710c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/gun_walk_up.prefab using Guid(42ba18351b12473cb90c6faf76710c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f9e72396b38ce37bb9d2e9176a594d') in 0.060409 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 4.343988 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/gun_walk_up.prefab
+  artifactKey: Guid(0fb0c9a70d7a40259636331301af36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/gun_walk_up.prefab using Guid(0fb0c9a70d7a40259636331301af36ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266303a71bb3d2677e0c73ddf7e39ed6') in 0.060149 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 5.092770 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_side.anim
+  artifactKey: Guid(3a599684419644b9965691507e07b0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_side.anim using Guid(3a599684419644b9965691507e07b0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10038b099a01db2158f6ede4334a5e4f') in 0.001282 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.555846 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_side.anim
+  artifactKey: Guid(886db0a3e4ea46a1b3a3fcb646512426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_side.anim using Guid(886db0a3e4ea46a1b3a3fcb646512426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e694931086818daa3a9dcab0c885ccd4') in 0.001025 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.113621 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_side.anim
+  artifactKey: Guid(c080f1f9bbeb4c9bb086bb4ca8cf15fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_side.anim using Guid(c080f1f9bbeb4c9bb086bb4ca8cf15fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1989039815d78d8f477b1b8a521b85e3') in 0.000944 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.237265 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_side.anim
+  artifactKey: Guid(270f92a79965444d945ed4de0cbe1db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_side.anim using Guid(270f92a79965444d945ed4de0cbe1db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519ff0c1e54075b58b8eef0cbec34353') in 0.000975 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 39.376455 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_side-overlay.anim
+  artifactKey: Guid(bd6b2c06d8634a15ae49697d5317aac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_side-overlay.anim using Guid(bd6b2c06d8634a15ae49697d5317aac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457ea8de55dc8768583afc213ea02158') in 0.001059 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.683950 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_side-overlay.anim
+  artifactKey: Guid(001a4bcfd8d249d0b688adc8ad95030e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_side-overlay.anim using Guid(001a4bcfd8d249d0b688adc8ad95030e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9198d4acfdda241e99266ba2cc370d') in 0.001006 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 45.712939 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/hammer_idle_side.prefab
+  artifactKey: Guid(70168125731d434bada6e6530117b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/hammer_idle_side.prefab using Guid(70168125731d434bada6e6530117b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b448a0f0ffac8531081f1fd776b3397') in 0.034459 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.009284 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/hammer_idle_down.prefab
+  artifactKey: Guid(47689b6af5074eaea6dd82eec3ad108b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/hammer_idle_down.prefab using Guid(47689b6af5074eaea6dd82eec3ad108b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbca447c6f88fa4d719111c577bf660') in 0.025524 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/hammer_idle_side.prefab
+  artifactKey: Guid(7923ffd8ec924bad817f5a663483f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/hammer_idle_side.prefab using Guid(7923ffd8ec924bad817f5a663483f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a30900d8c061c8d26a75116bd2445de') in 0.015640 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/hammer_idle_up.prefab
+  artifactKey: Guid(a18af833472d496b9f48686adc331a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/hammer_idle_up.prefab using Guid(a18af833472d496b9f48686adc331a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574a1d7157c774d87e1b7e7842af9ebb') in 0.013295 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.175300 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/hammer_idle_down.prefab
+  artifactKey: Guid(ab582a0d3c1444e995221a3443937941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/hammer_idle_down.prefab using Guid(ab582a0d3c1444e995221a3443937941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913ebd5ea773145234dab889788903f9') in 0.014769 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 15.347760 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle
+  artifactKey: Guid(421901ea83c14deeaf241995cc4f95bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle using Guid(421901ea83c14deeaf241995cc4f95bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0417ab0ea4797e42f27c5594bf514bd4') in 0.000491 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.718212 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle/side
+  artifactKey: Guid(e0cf382bed474743b4cabb39ebb73df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle/side using Guid(e0cf382bed474743b4cabb39ebb73df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f517452d70fa227fb0743619106e6fb9') in 0.000438 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073670 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle/side/03.png
+  artifactKey: Guid(06af3c030b04406983d4b24d803244f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle/side/03.png using Guid(06af3c030b04406983d4b24d803244f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff46a73db92ab40cd50fbbf8865e7b58') in 0.034028 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002883 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle/side/09.png
+  artifactKey: Guid(8c49bd894f744fee824139267d775f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle/side/09.png using Guid(8c49bd894f744fee824139267d775f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f822484c78309199a884515378639484') in 0.022665 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle/side/12.png
+  artifactKey: Guid(b31340eeaaed454d98f9d1ad3711ca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle/side/12.png using Guid(b31340eeaaed454d98f9d1ad3711ca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949564b1c65e49abc2e2725a6b9686b9') in 0.024345 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle/side/10.png
+  artifactKey: Guid(f0fcc9e3de5149328569517ee4651014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/idle/side/10.png using Guid(f0fcc9e3de5149328569517ee4651014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d67351ba61de45faabc76300128ec23') in 0.051675 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.928774 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/gun/side
+  artifactKey: Guid(c1c4de6347ae445387f572c50871d5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Sprites/Character/gun/side using Guid(c1c4de6347ae445387f572c50871d5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec9f06a65d629270d605c86748fa469') in 0.000533 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.124237 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_B_side.prefab
+  artifactKey: Guid(ad7c845a8ea14e87a039b7413b5227b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/hit_B_side.prefab using Guid(ad7c845a8ea14e87a039b7413b5227b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffe039823eca03f14d22ccef9f0d1a0') in 0.051539 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 2.784329 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_walk_down.prefab
+  artifactKey: Guid(b297c4ee17b140fa904ab7b37aa2b866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_walk_down.prefab using Guid(b297c4ee17b140fa904ab7b37aa2b866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb385c56eb34002d00649d1c1ac0aa3') in 0.060276 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.053250 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_walk_up.prefab
+  artifactKey: Guid(5af27cfeed664ab5bf5d45f09e8c83f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/rifle_walk_up.prefab using Guid(5af27cfeed664ab5bf5d45f09e8c83f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daf72cc15d90fe456a759abd43707f6') in 0.017694 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 8.912434 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/idle_down.prefab
+  artifactKey: Guid(dabbeadecb0a498baf4d81d2205cbb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/idle_down.prefab using Guid(dabbeadecb0a498baf4d81d2205cbb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faa2829ea819ada19b8385745730bd4') in 0.085216 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/idle_side.prefab
+  artifactKey: Guid(30b2b04468ac410a96a7ab86b0ff8ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/idle_side.prefab using Guid(30b2b04468ac410a96a7ab86b0ff8ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e6570931baaecbec557714112f9efb') in 0.020838 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.268148 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/idle_up.prefab
+  artifactKey: Guid(96d65395a13a45dc8e23b7c50ac42de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/idle_up.prefab using Guid(96d65395a13a45dc8e23b7c50ac42de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01f58bd480ef62967cd443c44ead60f') in 0.083701 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/scythe_idle_up.prefab
+  artifactKey: Guid(66be10d759c443da95d2a8b782bf6dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/scythe_idle_up.prefab using Guid(66be10d759c443da95d2a8b782bf6dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf226e326d10f237febc7f35a99d54f') in 0.071339 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/scythe_idle_up.prefab
+  artifactKey: Guid(a91d13eadfaf47ef97d2d16fccf6b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/scythe_idle_up.prefab using Guid(a91d13eadfaf47ef97d2d16fccf6b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ceec45d497138e733af3410ee1fd7f0') in 0.013742 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/scythe_idle_side.prefab
+  artifactKey: Guid(0610fac2cb7b44d4a5f5b1e1d8a3dc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/scythe_idle_side.prefab using Guid(0610fac2cb7b44d4a5f5b1e1d8a3dc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59ef348606e94657a5762aeb7880062') in 0.012378 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 6.232712 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/idle_down.controller
+  artifactKey: Guid(75f1384a1b8845a9bcd049fbef77fb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/idle_down.controller using Guid(75f1384a1b8845a9bcd049fbef77fb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa0986e4b70e78206e8f48cc1c09b79') in 0.001522 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.455987 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_down.controller
+  artifactKey: Guid(a8cefa1816ba41eb9f9d94c7a465ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_down.controller using Guid(a8cefa1816ba41eb9f9d94c7a465ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4035943e1fff8dd5f40205e70ed53563') in 0.001271 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.471028 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/idle_down.anim
+  artifactKey: Guid(47d3138a6af14ae6b89418588680fa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/idle_down.anim using Guid(47d3138a6af14ae6b89418588680fa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c830cd8419bba31dbd8992d33abf132e') in 0.000991 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.994986 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_side.controller
+  artifactKey: Guid(01ea2adb78a6431ea9b76ad9eb2cf421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_side.controller using Guid(01ea2adb78a6431ea9b76ad9eb2cf421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dea80f8484368a939f4aa319a540a36') in 0.001330 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.589383 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_side.anim
+  artifactKey: Guid(e30f5292049646929615c21692904ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_side.anim using Guid(e30f5292049646929615c21692904ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2728cdedcb464f97f6c87054d960fb27') in 0.001086 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.978974 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/idle_down.anim
+  artifactKey: Guid(0f939ea32caa4d0d992c7988caad38da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/idle_down.anim using Guid(0f939ea32caa4d0d992c7988caad38da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d51524a64a0cca94f2fe5dcdfd74f5') in 0.001006 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.420924 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/idle_side.anim
+  artifactKey: Guid(79acc508ae994694abff8e29ad982288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/idle_side.anim using Guid(79acc508ae994694abff8e29ad982288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012c806cc5e8a61ed1e140e08c47561d') in 0.001096 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.165070 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/idle_side.anim
+  artifactKey: Guid(1f2fbbf6e91e4e8b8a1a4adf11566806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/idle_side.anim using Guid(1f2fbbf6e91e4e8b8a1a4adf11566806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a714be2b6f4e61154af4d38e514e16') in 0.001104 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.569416 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/idle_up.anim
+  artifactKey: Guid(c0eaa4cb0936400a8d2b26a9c47b28f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/idle_up.anim using Guid(c0eaa4cb0936400a8d2b26a9c47b28f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a2c09bdcf1595bcc2aa64377ed41df') in 0.001077 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.275596 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_up.anim
+  artifactKey: Guid(a4d497b44a3f4aa789b83026b69eb694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_up.anim using Guid(a4d497b44a3f4aa789b83026b69eb694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e97a36f0847243231e34a367caadc61') in 0.001115 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.045112 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/idle_up.anim
+  artifactKey: Guid(17e3c32c3d424445a05393fa9f79a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/idle_up.anim using Guid(17e3c32c3d424445a05393fa9f79a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfa845abce24649afd0f9afae24b8fb') in 0.001012 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 38.677416 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/jump_down.prefab
+  artifactKey: Guid(e0c24f5fb50f4e37b641041f96d91175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/jump_down.prefab using Guid(e0c24f5fb50f4e37b641041f96d91175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91bf21bfa8314d42460e927f724b454') in 0.080548 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 1.269781 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/jump_side.prefab
+  artifactKey: Guid(11fe660491d54140bacc5b74251b4763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/jump_side.prefab using Guid(11fe660491d54140bacc5b74251b4763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f64900d3b80014f26a2b60ec0688e3') in 0.014553 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.057345 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/jump_side.prefab
+  artifactKey: Guid(972ee2b6049d448aa01891c5117f9928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/jump_side.prefab using Guid(972ee2b6049d448aa01891c5117f9928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82111730fb77e6d1c33d41e003881d2') in 0.074030 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 1.795299 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/jump_up.prefab
+  artifactKey: Guid(9c9d516d7fbb47c5ac0291977bb7074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/jump_up.prefab using Guid(9c9d516d7fbb47c5ac0291977bb7074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0731e39afc7a8bdbe113cd2316d5f2ab') in 0.075775 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 45.110036 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_side-overlay.controller
+  artifactKey: Guid(cb641554032743f2943130ca52d02ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_side-overlay.controller using Guid(cb641554032743f2943130ca52d02ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cea923cdc1bc845cefa99d0e302472') in 0.001332 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.153766 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/run_side.anim
+  artifactKey: Guid(e67b392cf4464b94800edc90e5e186e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/run_side.anim using Guid(e67b392cf4464b94800edc90e5e186e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dcc4b1516f34bf3b5b1f2d1b77e3ee') in 0.000994 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.304302 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_up.controller
+  artifactKey: Guid(0dde0b547e9141adb92bf7412f030932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_up.controller using Guid(0dde0b547e9141adb92bf7412f030932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142fc8113a97d630eec115533c3049fe') in 0.001230 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.130063 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_up.anim
+  artifactKey: Guid(067cfb143b254495a6e23f6509bb5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_up.anim using Guid(067cfb143b254495a6e23f6509bb5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b035598884cce876319d4e869d258ee') in 0.001002 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.859663 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/run_down.anim
+  artifactKey: Guid(97bd016f30ef4d2ab7e81b6e5944f587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/run_down.anim using Guid(97bd016f30ef4d2ab7e81b6e5944f587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8bc120e0fcb6d72ad5791b664e018f') in 0.001085 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.396547 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_side.anim
+  artifactKey: Guid(60fe0b95c0d942788426eabcede42785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_side.anim using Guid(60fe0b95c0d942788426eabcede42785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec135f97ebd084e60ec0c67823107af') in 0.001237 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 33.891387 seconds.
+  path: Assets/Prefabs/Animators/Player Red Armed.overrideController
+  artifactKey: Guid(d527e7b4a6b86684ab91d589359ecec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animators/Player Red Armed.overrideController using Guid(d527e7b4a6b86684ab91d589359ecec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6af10068681cf966b5845770fc79a2') in 0.001193 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.391710 seconds.
+  path: Assets/Prefabs/Animators/Player Armed.controller
+  artifactKey: Guid(d4c4898c419474f488af1bb3aa11a285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animators/Player Armed.controller using Guid(d4c4898c419474f488af1bb3aa11a285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6cf7d4ca4f351079361ef7a75a4798') in 0.003820 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 40.242080 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hit_A_side.anim
+  artifactKey: Guid(b740da47f12546afb30d435b56ab55fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hit_A_side.anim using Guid(b740da47f12546afb30d435b56ab55fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3dba8fd717274e1456995bac040a18') in 0.001045 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 86.862220 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_up.anim
+  artifactKey: Guid(543b03e36728476f92502b0224583ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_up.anim using Guid(543b03e36728476f92502b0224583ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3395695caf7c93bf418c12abb9b334f') in 0.000931 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.283619 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_up.anim
+  artifactKey: Guid(7167864f304045aaa80254e18261f5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_up.anim using Guid(7167864f304045aaa80254e18261f5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95d46a7e7fea9ad2ebfacc8205ac972') in 0.001134 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.755568 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_up.anim
+  artifactKey: Guid(5fcb33d3f5764cd6884fb43f68765a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_up.anim using Guid(5fcb33d3f5764cd6884fb43f68765a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e3e3890b2aa365cd0caa3aa9fef575') in 0.000940 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.266801 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_up.anim
+  artifactKey: Guid(cd4d274dc90f48d19d74b0909c31a373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_up.anim using Guid(cd4d274dc90f48d19d74b0909c31a373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61744a219a7787db78fb10242624d19f') in 0.000980 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.750299 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_side-overlay.anim
+  artifactKey: Guid(0080b23a627e4afc8c75b581b52772ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_side-overlay.anim using Guid(0080b23a627e4afc8c75b581b52772ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cebd1ae5d6e4f68ff68e9104aecb241') in 0.001073 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.310581 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_side-overlay.anim
+  artifactKey: Guid(595e2bba28cd4ada8d9aa040393584fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_side-overlay.anim using Guid(595e2bba28cd4ada8d9aa040393584fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dc1833bdcc23794962fb58b417ef73') in 0.000960 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.473 seconds
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.953 seconds
+Domain Reload Profiling: 1422ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (953ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (288.8 KB). Loaded Objects now: 5053.
+Memory consumption went from 156.7 MB to 156.4 MB.
+Total: 3.709400 ms (FindLiveObjects: 0.414900 ms CreateObjectMapping: 0.106700 ms MarkObjects: 2.963900 ms  DeleteObjects: 0.222400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.444 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1359ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (919ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (281ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (290.1 KB). Loaded Objects now: 5069.
+Memory consumption went from 156.9 MB to 156.6 MB.
+Total: 3.703900 ms (FindLiveObjects: 0.437000 ms CreateObjectMapping: 0.111600 ms MarkObjects: 2.920000 ms  DeleteObjects: 0.234400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.902 seconds
+Domain Reload Profiling: 1339ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (902ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (289.1 KB). Loaded Objects now: 5085.
+Memory consumption went from 156.9 MB to 156.7 MB.
+Total: 3.549600 ms (FindLiveObjects: 0.421400 ms CreateObjectMapping: 0.106800 ms MarkObjects: 2.771900 ms  DeleteObjects: 0.248700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling: 1380ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (903ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (289.0 KB). Loaded Objects now: 5101.
+Memory consumption went from 156.9 MB to 156.7 MB.
+Total: 3.571700 ms (FindLiveObjects: 0.408900 ms CreateObjectMapping: 0.104600 ms MarkObjects: 2.836300 ms  DeleteObjects: 0.220500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.443 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.906 seconds
+Domain Reload Profiling: 1345ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (289.0 KB). Loaded Objects now: 5117.
+Memory consumption went from 157.0 MB to 156.7 MB.
+Total: 3.865500 ms (FindLiveObjects: 0.471600 ms CreateObjectMapping: 0.107500 ms MarkObjects: 3.038000 ms  DeleteObjects: 0.246800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 431.019412 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B
+  artifactKey: Guid(58aab80ca3b5489d8dbb7a322683cfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B using Guid(58aab80ca3b5489d8dbb7a322683cfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171c97e539c5a4ebe517cb388734721d') in 0.001873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.778683 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations
+  artifactKey: Guid(956f3c4faf6f45be9753110f773bd54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations using Guid(956f3c4faf6f45be9753110f773bd54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536a4971d94292dd64f15b466ed7eb89') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.784441 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C
+  artifactKey: Guid(992b8c5296904be8a57cc47fce89b4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C using Guid(992b8c5296904be8a57cc47fce89b4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f0c116624b08c7199700a8cd5658c5') in 0.000496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.897 seconds
+Domain Reload Profiling: 1334ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (898ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (288.8 KB). Loaded Objects now: 5133.
+Memory consumption went from 156.7 MB to 156.4 MB.
+Total: 3.594500 ms (FindLiveObjects: 0.454200 ms CreateObjectMapping: 0.112600 ms MarkObjects: 2.775300 ms  DeleteObjects: 0.251000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TwinThinker\Twin Thinkers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.438 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.878 seconds
+Domain Reload Profiling: 1313ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (879ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (406ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 4.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (289.0 KB). Loaded Objects now: 5149.
+Memory consumption went from 157.0 MB to 156.7 MB.
+Total: 3.691200 ms (FindLiveObjects: 0.415500 ms CreateObjectMapping: 0.108200 ms MarkObjects: 2.934900 ms  DeleteObjects: 0.231500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 201.712390 seconds.
+  path: Assets/Prefabs/Animators/Player Red.overrideController
+  artifactKey: Guid(2dbd22e41bd3f40489b253148f77d3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animators/Player Red.overrideController using Guid(2dbd22e41bd3f40489b253148f77d3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e6dbd05adf2be618cd06ee46f128a8') in 0.014093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
