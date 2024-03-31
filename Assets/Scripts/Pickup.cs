@@ -25,7 +25,7 @@ public class Pickup : MonoBehaviour
         if (collision.CompareTag("Heal"))
         {
             health.RestoreHealth();
-            healRef.Spawn();
+            healRef.SpawnLate();
             collision.gameObject.SetActive(false);
         }
         else if(!hasWeapon && collision.CompareTag("Gun"))

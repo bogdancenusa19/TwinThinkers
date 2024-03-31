@@ -10,20 +10,21 @@ public class SpawnHeal : MonoBehaviour
 
     private void Start()
     {
-        Invoke("ChangeHealPosition", 5f);
-    }
-    
-    public void Spawn()
-    {
-        if (heal.activeInHierarchy == false)
-        {
-            Invoke("ChangeHealPosition", 10f);
-        }
-    }
-
-    private void ChangeHealPosition()
-    {
         heal.transform.position = new Vector2(Random.Range(-52, -26), 11);
         heal.SetActive(true);
     }
+
+    public void SpawnLate()
+    {
+        Invoke("SpawnHealRandom", 10f);
+    }
+    private void SpawnHealRandom()
+    {
+        if (heal.activeInHierarchy == false)
+        {
+            heal.transform.position = new Vector2(Random.Range(-52, -26), 11);
+            heal.SetActive(true);
+        }
+    }
+    
 }
