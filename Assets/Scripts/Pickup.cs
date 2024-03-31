@@ -7,8 +7,10 @@ public class Pickup : MonoBehaviour
     [SerializeField] GameObject equippedGun = null;
     [SerializeField] private GameObject equippedPistol;
     [SerializeField] Sprite sprite = null;
+    [SerializeField] private SpawnHeal healRef;
 
     private SpriteRenderer playerSprite;
+    private Health health;
     private GameObject currentWeapon = null;
     
 
@@ -16,10 +18,17 @@ public class Pickup : MonoBehaviour
     private void Start()
     {
         playerSprite = GetComponent<SpriteRenderer>();
+        health = GetComponent<Health>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(!hasWeapon && collision.CompareTag("Gun"))
+        if (collision.CompareTag("Heal"))
+        {
+            health.RestoreHealth();
+            healRef.Spawn();
+            collision.gameObject.SetActive(false);
+        }
+        else if(!hasWeapon && collision.CompareTag("Gun"))
         {
             Destroy(collision.gameObject);
             equippedGun.SetActive(true);
@@ -46,5 +55,6 @@ public class Pickup : MonoBehaviour
     {
         return currentWeapon;
     }
+    
 
 }

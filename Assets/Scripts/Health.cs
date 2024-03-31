@@ -109,4 +109,10 @@ public class Health : MonoBehaviour
         }
     }
 
+    public void RestoreHealth()
+    {
+        currentHealth = maxHealth;
+        UpdateHealthUI();
+    }
+
 }
