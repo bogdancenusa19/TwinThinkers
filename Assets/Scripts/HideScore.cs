@@ -19,7 +19,7 @@ public class HideScore : MonoBehaviour
     {
         if (col.CompareTag("Player") || col.CompareTag("Player2"))
         {
-            Invoke("SetScoreActive", 0.5f);
+            Invoke("SetScoreActive", 0.2f);
         }
     }
 
